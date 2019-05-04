@@ -8,8 +8,40 @@ body {
     padding: 2%;
 }
 
+header {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  background-color: #beb2b2;
+}
+
+.header-container {
+  margin: 0 auto;
+  width: 960px;
+}
+
 nav {
     float: left;
+    width: 70%;
+    position: relative;
+    text-align: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links {
+  float: right;
+  margin: 10px;
+  border-right: 1px solid white;
+  padding: 0 10px;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+  position: relative;
 }
 
 .main {
@@ -32,12 +64,12 @@ nav {
 h1 {
     color: #ffffff;
     background-color: red;
-    width: 241px;
+    width: 140px;
+    height: 100px;
     display: block;
-    margin-block-start: -8px;
+    margin-block-start: 0px;
     margin-block-end: -5px;
-    margin-inline-end: 241px;
-    margin-inline-start: 45px;
+    margin-inline-start: -1px;
 }
 
 h2 {
