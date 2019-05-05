@@ -30,11 +30,15 @@ nav {
 .navs {
   list-style-type: none;
   display: block;
-  position: fixed;
+  position: relative;
   top: 34px;
   bottom: 40px;
-  left: 50px;
+  left: 15px;
   right: 69px;
+}
+
+ul {
+  b
 }
 
 .links {
@@ -61,13 +65,23 @@ nav {
     border-style: solid;
     display: block;
     position: relative;
-    top: 35px;
+    top: 20px;
 }
+
 .portfolio {
     background-color: #ffffff;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    border-width: 1px;
+    border-style: solid;
+    top: 20px;
+    border-color: red;
+    width: 960px;
     height: 500px;
-    width: 500px;
 }
+
 h1 {
     color: #ffffff;
     background-color: red;
@@ -81,4 +95,26 @@ h1 {
 
 h2 {
     color: red;
+}
+
+#footer-container {
+  min-height: 100%
+}
+
+#fill {
+  overflow: auto;
+  padding-bottom: 20px;
+
+}
+
+footer {
+  background-color: red;
+  color: grey;
+  position: relative;
+  height: 35px;
+  margin-top: 305px;
+  clear: both;
+  width: 100%;
+  border-top: 5px grey solid;
+  text-align: center;
 }
