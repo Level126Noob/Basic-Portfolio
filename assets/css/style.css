@@ -47,6 +47,18 @@ nav {
   padding: 0 5px;
 }
 
+a:link {
+  color: rgb(83, 83, 240);
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
 .logo {
   left: -15px;
   float: left;
@@ -60,13 +72,27 @@ nav {
     height: 350px;
     width: 960px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 25px;
     border-color: red;
     border-width: 1px;
     border-style: solid;
     display: block;
     position: relative;
-    top: 20px;
+    top: 30px;
+}
+
+.maincontact {
+  background-color: #ffffff;
+  height: 500px;
+  width: 960px;
+  margin: 0 auto;
+  padding: 25px;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  display: block;
+  position: relative;
+  top: 30px;
 }
 
 .portfolio {
@@ -119,4 +145,41 @@ footer {
   width: 100%;
   border-top: 5px grey solid;
   text-align: center;
+}
+
+.form-control {
+  position: relative;
+  width: 960px;
+  height: 20px;
+  background: white;
+  border: 1px rgb(167, 165, 165) solid;
+  color: rgb(167, 165, 165);
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.Name {
+  height: 50px;
+}
+
+.Email {
+  height: 50px;
+}
+
+.Message {
+  Height: 100px;
+  margin-top: -20px;
+}
+
+.submit {
+  width: 75px;
+  border-color: rgb(167, 165, 165);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  height: 20px;
+}
+
+form .submit:hover{
+  background-color: orange;
 }

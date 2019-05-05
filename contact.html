@@ -35,15 +35,23 @@
             <h2>Contact</h2>
             <hr>
         <form id="contact-form" method="POST" action="">
-            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-
-            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+            <div class="Name">
+                <p>Name</p>
+            <input name="name" type="text" class="form-control" placeholder="" required><br>
+            </div>
+            <div class="email">
+                <p>Email</p>   
+            <input name="email" type="email" class="form-control" placeholder="" required>
+            </div>
             <br>
-
-            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+            <div class="Message">
+                <p>Message</p>
+            <textarea name="message" class="form-control" placeholder="" rows="4" required></textarea>
+            </div>
             <br>
-
+            <div class="submit">
             <input type="submit" class="form-control submit" value="Submit">
+            </div>
         </form>
         </div>
     </div>
