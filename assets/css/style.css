@@ -13,6 +13,7 @@ header {
   position: relative;
   height: 100px;
   background-color: #beb2b2;
+  border-bottom: 1px red solid;
 }
 
 .header-container {
@@ -27,6 +28,8 @@ nav {
     text-align: right;
 }
 
+
+
 .navs {
   list-style-type: none;
   display: block;
@@ -37,10 +40,6 @@ nav {
   right: 69px;
 }
 
-ul {
-  b
-}
-
 .links {
   float: right;
   margin: 0px;
@@ -49,9 +48,11 @@ ul {
 }
 
 .logo {
+  left: -15px;
   float: left;
   width: 30%;
   position: relative;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .main {
@@ -95,6 +96,7 @@ h1 {
 
 h2 {
     color: red;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #footer-container {
