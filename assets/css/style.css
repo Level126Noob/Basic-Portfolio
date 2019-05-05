@@ -33,9 +33,9 @@ ul {
 
 .links {
   float: right;
-  margin: 10px;
+  margin: 0px;
   border-right: 1px solid white;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .logo {
