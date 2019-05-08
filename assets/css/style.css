@@ -23,7 +23,9 @@ header {
 
 nav {
     float: left;
-    width: 70%;
+    width: 250px;
+    height: 0px;
+    left: 480px;
     position: relative;
     text-align: right;
 }
@@ -36,7 +38,7 @@ nav {
   position: relative;
   top: 34px;
   bottom: 40px;
-  left: 15px;
+  left: 132px;
   right: 69px;
 }
 
@@ -63,11 +65,13 @@ a:hover {
 }
 
 .logo {
-  left: -15px;
+  left: -13px;
   float: left;
-  width: 30%;
+  width: 140px;
+  height: 100px;
   position: relative;
   font-family: 'Times New Roman', Times, serif;
+  margin-inline-start: -14px;
 }
 
 .main {
