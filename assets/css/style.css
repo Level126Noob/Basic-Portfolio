@@ -219,15 +219,16 @@ figure {
 
 figcaption {
   position: absolute;
-  bottom: 5px;
-  width: 100%;
+  bottom: 10px;
+  width: 90%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background-color: red;
   text-align: center;
   color: white;
   font-weight: bold;
-  height: 50px;
+  height: 33px;
+  padding: 10px;
 }
 
 .rwt {
