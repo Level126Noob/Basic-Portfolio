@@ -103,17 +103,18 @@ a:hover {
 }
 
 .portfolio {
-    background-color: #ffffff;
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    padding: 15px;
-    border-width: 1px;
-    border-style: solid;
-    top: 20px;
-    border-color: red;
-    width: 960px;
-    height: 800px;
+  background-color: #ffffff;
+  height: 800px;
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 25px;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  display: block;
+  position: relative;
+  top: 30px;
 }
 
 h1 {
@@ -139,18 +140,18 @@ h2 {
 
 #fill {
   overflow: auto;
-  padding-bottom: 20px;
+  top: 200px;
 
 }
 
 footer {
   background-color: red;
   color: grey;
-  position: relative;
+  position: fixed;
   height: 43px;
   margin-top: 200px;
   clear: both;
-  bottom: -20px;
+  bottom: 0px;
   width: 100%;
   border: 1px white solid;
   border-top: 5px grey solid;
