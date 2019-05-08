@@ -176,6 +176,17 @@ footer {
   margin-top: -20px;
 }
 
+.message-form {
+  position: relative;
+  width: 960px;
+  height: 60px;
+  background: white;
+  border: 1px rgb(167, 165, 165) solid;
+  color: rgb(167, 165, 165);
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
 .submit {
   width: 75px;
   border-color: rgb(167, 165, 165);
