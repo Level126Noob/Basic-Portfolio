@@ -145,6 +145,7 @@ footer {
   height: 43px;
   margin-top: 200px;
   clear: both;
+  bottom: -20px;
   width: 100%;
   border: 1px white solid;
   border-top: 5px grey solid;
